@@ -1,0 +1,79 @@
+ody{
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+p{
+  border: 2px solid lightcoral;
+  background-color: rgb(216, 196, 171);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 3px gray;
+}
+
+.top{
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+.bottom{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.bottom p{
+  background-color: rgb(188, 234, 234);
+  width: 100px;
+  
+}
+
+.freehand-regular {
+  font-family: "Freehand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue p{
+  border: 2px solid blue;
+  background-color: skyblue;
+  width: 50%;
+}
+.red p{
+  border: 2px solid red;
+  background-color: rgb(222, 185, 185);
+}
+.red{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-left: auto;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.picture{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin-left: 300px;
+}
